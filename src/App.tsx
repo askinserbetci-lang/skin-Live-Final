@@ -16,6 +16,7 @@ import DownloadEPK from './pages/DownloadEPK';
 import FestivalEPK from './pages/FestivalEPK';
 import BookingPage from './pages/Booking';
 import CustomCursor from './components/CustomCursor';
+import MobileNavbar from './components/MobileNavbar';
 import { LightboxProvider } from './context/LightboxContext';
 
 const Navbar = () => {
@@ -153,6 +154,7 @@ function App() {
         <div className="min-h-screen bg-transparent text-paper font-sans selection:bg-gold/30 selection:text-gold">
           <CustomCursor />
           <Navbar />
+          <MobileNavbar />
           <main>
             <AnimatedRoutes />
           </main>
